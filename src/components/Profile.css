@@ -1,0 +1,28 @@
+.profile {
+  padding: 2rem;
+}
+
+.ava {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
+.row {
+  width: 100%;
+}
+
+.profile-card {
+  border-radius: 20px;
+  box-shadow: 0 0 10px #d6d6d6;
+}
+
+.personal-info {
+  padding: 2rem;
+  background: #aae5cf;
+  border-radius: 20px 20px 0 0;
+}
+
+.greenbook-info {
+  padding: 2rem;
+}

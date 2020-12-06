@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hackduke-dev-104535-authRole",
+      "UnauthRoleArn": "arn:aws:iam::611774879215:role/amplify-hackduke-dev-104535-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::611774879215:role/amplify-hackduke-dev-104535-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-hackduke-dev-104535-deployment",
+      "UnauthRoleName": "amplify-hackduke-dev-104535-unauthRole",
+      "StackName": "amplify-hackduke-dev-104535",
+      "StackId": "arn:aws:cloudformation:us-west-2:611774879215:stack/amplify-hackduke-dev-104535/10fe2fa0-372a-11eb-8cfa-02400ead0b83",
+      "AmplifyAppId": "d2x3kxu7bzac3h"
+    }
+  },
+  "auth": {
+    "hackduke78cd952b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "AppClientSecret": "1e7fk42o0f9uqo61nllhrs60vevkeeeerei71aropdljqm7d8gl9",
+        "UserPoolId": "us-west-2_QL8ceug0g",
+        "AppClientIDWeb": "12egbe6qsstfm6c6bs01npt8ch",
+        "AppClientID": "1vfhh3fombijki7s5slcojd0si",
+        "IdentityPoolId": "us-west-2:96c95320-47ec-49ae-8ebd-303700fd4884",
+        "IdentityPoolName": "hackduke78cd952b_identitypool_78cd952b__dev",
+        "UserPoolName": "hackduke78cd952b_userpool_78cd952b"
+      },
+      "lastPushTimeStamp": "2020-12-05T19:21:59.520Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-hackduke-dev-104535-deployment/amplify-cfn-templates/auth/hackduke78cd952b-cloudformation-template.yml",
+        "logicalId": "authhackduke78cd952b"
+      },
+      "lastPushDirHash": "8Dl9kBiQuzLUy+iF1kluOqIVydg="
+    }
+  }
+}

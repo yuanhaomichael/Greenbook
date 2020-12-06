@@ -1,0 +1,57 @@
+img {
+  width: 25px;
+  height: 30px;
+  padding-bottom: 0.3rem;
+}
+
+.side-col {
+}
+
+.sidebar {
+  box-shadow: 2px 0 2px #d6d6d6;
+  height: 100vh;
+  padding: 0 1rem;
+  position: fixed;
+  width: 25%;
+}
+
+.row {
+  width: 100vw;
+}
+
+a.nav-brand {
+  display: block;
+  margin: 1rem 0 3rem 0.5rem;
+  font-weight: 700;
+  color: #73c0a3;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #000;
+  background-color: #d8d8d8;
+  border-radius: 5px;
+}
+
+.col {
+  padding: 0;
+}
+
+.icon {
+  display: inline;
+  margin-right: 10px;
+  padding-bottom: 4px;
+}
+
+.signout-btn {
+  position: absolute;
+  bottom: 10px;
+}
